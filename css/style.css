@@ -39,6 +39,7 @@ body {
   color: #050000;
   padding: 3px 10px;
   border-bottom: 1px solid #000000;
+  text-align: center;
 }
 
 /*header section*/
@@ -66,7 +67,16 @@ body {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+  transition: all 0.3s ease;
 }
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover,
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link:focus {
+  padding: 10px 30px;
+  color : #3a3b3c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 a,
 a:hover,
@@ -612,4 +622,3 @@ a:focus {
 }
 
 /* end footer section*/
-/*# sourceMappingURL=style.css.map */
